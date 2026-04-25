@@ -1,99 +1,75 @@
 <div align="center">
 
-```
-╔═══════════════════════════════════════════════════════╗
-║           ABDULLAH ATTIQUE  //  AI ENGINEER           ║
-║        Python Backend  ·  ML Systems  ·  LLMs         ║
-╚═══════════════════════════════════════════════════════╝
-```
+# Abdullah Attique
+### AI Engineer · Python Backend · ML Systems
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=15&pause=1000&color=7F77DD&center=true&vCenter=true&width=600&lines=Building+production-grade+AI+systems+since+year+1;Conversational+AI+%7C+RAG+%7C+WebSocket+Streaming;FastAPI+%7C+Docker+%7C+Ollama+%7C+PyTorch;From+NUCES+FAST+%E2%80%94+open+to+internships+%F0%9F%9A%80)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&pause=1000&color=6E40C9&center=true&vCenter=true&width=500&lines=2nd+Year+AI+Student+%40+NUCES+FAST;Building+Production-Grade+AI+Systems;LLMs+%7C+FastAPI+%7C+Docker+%7C+WebSockets;Always+Learning%2C+Always+Shipping+🚀)](https://git.io/typing-svg)
 
-[![Email](https://img.shields.io/badge/-Abdullah.attique.2005%40gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:Abdullah.attique.2005@gmail.com)
-[![LinkedIn](https://img.shields.io/badge/-Abdullah%20Attique-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/abdullah-attique-toor-534896375)
-[![Phone](https://img.shields.io/badge/-%2B92%20319%205868870-25D366?style=flat-square&logo=whatsapp&logoColor=white)](tel:+923195868870)
-![Visitors](https://komarev.com/ghpvc/?username=Ab-21651&style=flat-square&color=7F77DD&label=Profile+Views)
+[![Email](https://img.shields.io/badge/Gmail-Abdullah.attique.2005%40gmail.com-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:Abdullah.attique.2005@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Abdullah%20Attique-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/abdullah-attique-toor-534896375)
+[![GitHub](https://img.shields.io/badge/GitHub-Ab--21651-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Ab-21651)
+[![Phone](https://img.shields.io/badge/Phone-%2B92%20319%205868870-25D366?style=flat-square&logo=whatsapp&logoColor=white)](tel:+923195868870)
 
 </div>
 
 ---
 
-<img align="right" width="340" src="https://user-images.githubusercontent.com/74038190/212749447-bfb7e725-6987-49d9-ae85-2015e3e7cc41.gif"/>
+## About Me
 
-### `whoami`
+2nd-year AI student at **FAST NUCES** who ships production-grade systems — not just notebooks. I build end-to-end Python backends, real-time AI pipelines, and containerized microservices. From adversarial ML to conversational AI, I focus on making things that actually work in the real world.
 
-```python
-class Abdullah:
-    university = "FAST NUCES — AI '27"
-    location   = "Rawalpindi, Pakistan"
-    focus      = ["LLM Integration", "FastAPI Backends",
-                  "ML Systems", "Conversational AI"]
-    seeking    = "AI/ML or Python Backend Internship"
-    motto      = "Ship it. Measure it. Improve it."
-```
-
-- 2nd year AI student who ships **real systems**, not just notebooks
-- Built voice-enabled chatbots with RAG, tool use, CRM, and streaming
-- Reduced ASR latency from **35 seconds → 850ms** through profiling and model swap
-- Deployed on AWS EC2, Railway, Vercel — production infra from year one
-
-<br clear="right"/>
+Currently seeking **AI/ML, Data Science, or Python Backend internships**.
 
 ---
 
 ## Featured Projects
 
 ### 🤖 Travel Buddy — Voice Conversational AI
-> Real-time voice chatbot with RAG, multi-tool use, CRM and WebSocket streaming
+> Real-time voice chatbot with RAG, tool use, and CRM
 
-```
-ASR Latency:  35,000ms → 850ms   (Moonshine → Faster-Whisper int8)
-RAG Latency:  ~48ms              (cosine similarity, 80-doc corpus)
-CRM:          SQLite, 1-15ms     (get/update user profiles)
-Tools:        Weather · Flights · Budget · Hotels (parallel execution)
-```
+- Streaming FastAPI + WebSocket backend with **Qwen2.5:1.5b** via Ollama
+- **Faster-Whisper** ASR (reduced latency from 35s → 850ms) + **Piper TTS**
+- RAG over 80 travel documents · Weather, Flights, Budget, Hotels tools · SQLite CRM
+- Multi-turn conversation memory · Voice + text interface
 
-`FastAPI` `WebSocket` `Ollama/Qwen2.5` `Faster-Whisper` `Piper TTS` `RAG` `SQLite` `Docker`
+`Python` `FastAPI` `WebSocket` `Ollama` `RAG` `Docker` `SQLite`
 
 ---
 
-### ✈️ Travel Itinerary Planner — AI Microservice
+### ✈️ Travel Itinerary Planner — Conversational AI Microservice
 > ~10 words/sec throughput · ~3s avg first-token latency
 
-- Multi-turn ConversationMemory (20-turn history) with regex-based profile extraction
-- Dynamic city-aware system prompts · Production Docker container with benchmarks
+- Real-time streaming AI backend for personalised travel itineraries across 9 cities
+- Multi-turn ConversationMemory with regex-based profile extraction
+- Production Docker container with health check endpoint + full benchmarking report
 
 `Python` `FastAPI` `WebSocket` `Ollama` `Docker`
 
 ---
 
-### 🛡️ FGSM Adversarial Attack Demo — Full-Stack AI Security
+### 🛡️ FGSM Adversarial Attack Demo — Full-Stack AI Security App
 > Reproducing Goodfellow et al. (2014) from scratch
 
-- FGSM on MNIST — small ε perturbations flip model predictions
-- FastAPI backend + interactive Next.js frontend for real-time visualization
+- FGSM implemented from scratch on MNIST — small ε perturbations flip predictions
+- FastAPI backend + interactive Next.js frontend for real-time adversarial visualization
 - Configured for AWS EC2 (t2.micro) production deployment
 
-`PyTorch` `FastAPI` `Next.js` `AWS EC2`
+`Python` `PyTorch` `FastAPI` `Next.js` `AWS EC2`
 
 ---
 
-### 📖 Urdu Story Generation — NLP from Scratch
-> Zero LLMs. Zero shortcuts.
+### 📖 Urdu Children's Story Generation — NLP from Scratch
+> Zero LLMs. Pure NLP pipeline.
 
 - Custom BPE tokenizer (vocab=250) trained on scraped Urdu stories
 - Trigram Language Model with MLE + interpolation smoothing
-- Full CI/CD: GitHub Actions → Railway with ChatGPT-style web UI
+- Full CI/CD: GitHub Actions → Railway deployment with ChatGPT-style UI
 
 `Python` `FastAPI` `Docker` `GitHub Actions` `Railway`
 
 ---
 
 ## Tech Stack
-
-<table>
-<tr>
-<td valign="top" width="50%">
 
 **Languages**
 
@@ -104,12 +80,10 @@ Tools:        Weather · Flights · Budget · Hotels (parallel execution)
 
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
-![scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white)
 ![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
 ![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white)
-
-</td>
-<td valign="top" width="50%">
 
 **Backend & Infra**
 
@@ -124,18 +98,15 @@ Tools:        Weather · Flights · Budget · Hotels (parallel execution)
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
 ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
 
-</td>
-</tr>
-</table>
-
 ---
 
 ## GitHub Stats
 
 <div align="center">
 
-![Stats](https://github-readme-stats.vercel.app/api?username=Ab-21651&show_icons=true&theme=tokyonight&hide_border=true&count_private=true)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Ab-21651&layout=compact&theme=tokyonight&hide_border=true)
+![Abdullah's GitHub Stats](https://github-readme-stats.vercel.app/api?username=Ab-21651&show_icons=true&theme=tokyonight&hide_border=true&count_private=true)
+
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Ab-21651&layout=compact&theme=tokyonight&hide_border=true)
 
 </div>
 
@@ -143,25 +114,16 @@ Tools:        Weather · Flights · Budget · Hotels (parallel execution)
 
 ## Currently
 
-```
-[########--]  Building eval suite for conversational AI
-              RAG metrics · tool accuracy · latency benchmarks
-
-[#####-----]  2nd Year @ FAST NUCES
-              DSA · Probability · Computer Architecture
-
-[##--------]  Open to internships — AI/ML or Python Backend
-              Available for immediate start
-```
+- 🏗️ Building eval suite for conversational AI (RAG + tool use + latency benchmarks)
+- 📚 2nd year AI @ FAST NUCES
+- 🔍 Open to AI/ML and Python Backend internships
 
 ---
 
 <div align="center">
 
-*"The best code is the code that ships."*
+*"Ship it, measure it, improve it."*
 
-**[📧 Email](mailto:Abdullah.attique.2005@gmail.com) · [💼 LinkedIn](https://linkedin.com/in/abdullah-attique-toor-534896375) · [📱 WhatsApp](https://wa.me/923195868870)**
-
-⭐ If something here is useful, a star means a lot!
+⭐ If you find my work interesting, drop a star on a repo!
 
 </div>
